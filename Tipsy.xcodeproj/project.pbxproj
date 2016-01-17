@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B5A291781C42DCEC006456B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A291771C42DCEC006456B0 /* AppDelegate.swift */; };
-		B5A2917A1C42DCEC006456B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A291791C42DCEC006456B0 /* ViewController.swift */; };
 		B5A2917D1C42DCEC006456B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A2917B1C42DCEC006456B0 /* Main.storyboard */; };
 		B5A2917F1C42DCEC006456B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A2917E1C42DCEC006456B0 /* Assets.xcassets */; };
 		B5A291821C42DCEC006456B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A291801C42DCEC006456B0 /* LaunchScreen.storyboard */; };
 		B5A2918D1C42DCED006456B0 /* TipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A2918C1C42DCED006456B0 /* TipsTests.swift */; };
 		B5A291981C42DCED006456B0 /* TipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A291971C42DCED006456B0 /* TipsUITests.swift */; };
+		B5EBAE8D1C4720440033A3C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A291771C42DCEC006456B0 /* AppDelegate.swift */; };
+		B5EBAE8E1C47204F0033A3C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A291791C42DCEC006456B0 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B5A291741C42DCEC006456B0 /* Tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A291741C42DCEC006456B0 /* Tipsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A291771C42DCEC006456B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5A291791C42DCEC006456B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B5A2917C1C42DCEC006456B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5A2917E1C42DCEC006456B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5A291811C42DCEC006456B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5A291831C42DCEC006456B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5A291881C42DCED006456B0 /* TipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A291881C42DCED006456B0 /* Tipsy.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tipsy.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A2918C1C42DCED006456B0 /* TipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsTests.swift; sourceTree = "<group>"; };
 		B5A2918E1C42DCED006456B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5A291931C42DCED006456B0 /* TipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A291931C42DCED006456B0 /* Tipsy.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tipsy.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A291971C42DCED006456B0 /* TipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsUITests.swift; sourceTree = "<group>"; };
 		B5A291991C42DCED006456B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		B5A291751C42DCEC006456B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B5A291741C42DCEC006456B0 /* Tips.app */,
-				B5A291881C42DCED006456B0 /* TipsTests.xctest */,
-				B5A291931C42DCED006456B0 /* TipsUITests.xctest */,
+				B5A291741C42DCEC006456B0 /* Tipsy.app */,
+				B5A291881C42DCED006456B0 /* Tipsy.xctest */,
+				B5A291931C42DCED006456B0 /* Tipsy.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B5A291731C42DCEC006456B0 /* Tips */ = {
+		B5A291731C42DCEC006456B0 /* Tipsy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5A2919C1C42DCED006456B0 /* Build configuration list for PBXNativeTarget "Tips" */;
+			buildConfigurationList = B5A2919C1C42DCED006456B0 /* Build configuration list for PBXNativeTarget "Tipsy" */;
 			buildPhases = (
 				B5A291701C42DCEC006456B0 /* Sources */,
 				B5A291711C42DCEC006456B0 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = Tips;
+			name = Tipsy;
 			productName = Tips;
-			productReference = B5A291741C42DCEC006456B0 /* Tips.app */;
+			productReference = B5A291741C42DCEC006456B0 /* Tipsy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B5A291871C42DCED006456B0 /* TipsTests */ = {
+		B5A291871C42DCED006456B0 /* TipsyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5A2919F1C42DCED006456B0 /* Build configuration list for PBXNativeTarget "TipsTests" */;
+			buildConfigurationList = B5A2919F1C42DCED006456B0 /* Build configuration list for PBXNativeTarget "TipsyTests" */;
 			buildPhases = (
 				B5A291841C42DCED006456B0 /* Sources */,
 				B5A291851C42DCED006456B0 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				B5A2918A1C42DCED006456B0 /* PBXTargetDependency */,
 			);
-			name = TipsTests;
+			name = TipsyTests;
 			productName = TipsTests;
-			productReference = B5A291881C42DCED006456B0 /* TipsTests.xctest */;
+			productReference = B5A291881C42DCED006456B0 /* Tipsy.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B5A291921C42DCED006456B0 /* TipsUITests */ = {
+		B5A291921C42DCED006456B0 /* TipsyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5A291A21C42DCED006456B0 /* Build configuration list for PBXNativeTarget "TipsUITests" */;
+			buildConfigurationList = B5A291A21C42DCED006456B0 /* Build configuration list for PBXNativeTarget "TipsyUITests" */;
 			buildPhases = (
 				B5A2918F1C42DCED006456B0 /* Sources */,
 				B5A291901C42DCED006456B0 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				B5A291951C42DCED006456B0 /* PBXTargetDependency */,
 			);
-			name = TipsUITests;
+			name = TipsyUITests;
 			productName = TipsUITests;
-			productReference = B5A291931C42DCED006456B0 /* TipsUITests.xctest */;
+			productReference = B5A291931C42DCED006456B0 /* Tipsy.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B5A2916F1C42DCEC006456B0 /* Build configuration list for PBXProject "Tips" */;
+			buildConfigurationList = B5A2916F1C42DCEC006456B0 /* Build configuration list for PBXProject "Tipsy" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B5A291731C42DCEC006456B0 /* Tips */,
-				B5A291871C42DCED006456B0 /* TipsTests */,
-				B5A291921C42DCED006456B0 /* TipsUITests */,
+				B5A291731C42DCEC006456B0 /* Tipsy */,
+				B5A291871C42DCED006456B0 /* TipsyTests */,
+				B5A291921C42DCED006456B0 /* TipsyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5A2917A1C42DCEC006456B0 /* ViewController.swift in Sources */,
-				B5A291781C42DCEC006456B0 /* AppDelegate.swift in Sources */,
+				B5EBAE8E1C47204F0033A3C4 /* ViewController.swift in Sources */,
+				B5EBAE8D1C4720440033A3C4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		B5A2918A1C42DCED006456B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B5A291731C42DCEC006456B0 /* Tips */;
+			target = B5A291731C42DCEC006456B0 /* Tipsy */;
 			targetProxy = B5A291891C42DCED006456B0 /* PBXContainerItemProxy */;
 		};
 		B5A291951C42DCED006456B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B5A291731C42DCEC006456B0 /* Tips */;
+			target = B5A291731C42DCEC006456B0 /* Tipsy */;
 			targetProxy = B5A291941C42DCED006456B0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -402,7 +402,7 @@
 				INFOPLIST_FILE = Tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dorahan.Tips;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tipsy;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -416,7 +416,7 @@
 				INFOPLIST_FILE = Tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dorahan.Tips;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tipsy;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -428,8 +428,8 @@
 				INFOPLIST_FILE = TipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dorahan.TipsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tips.app/Tips";
+				PRODUCT_NAME = Tipsy;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipsy.app/Tipsy";
 			};
 			name = Debug;
 		};
@@ -440,8 +440,8 @@
 				INFOPLIST_FILE = TipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dorahan.TipsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tips.app/Tips";
+				PRODUCT_NAME = Tipsy;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipsy.app/Tipsy";
 			};
 			name = Release;
 		};
@@ -451,7 +451,7 @@
 				INFOPLIST_FILE = TipsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dorahan.TipsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tipsy;
 				TEST_TARGET_NAME = Tips;
 				USES_XCTRUNNER = YES;
 			};
@@ -463,7 +463,7 @@
 				INFOPLIST_FILE = TipsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dorahan.TipsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tipsy;
 				TEST_TARGET_NAME = Tips;
 				USES_XCTRUNNER = YES;
 			};
@@ -472,7 +472,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B5A2916F1C42DCEC006456B0 /* Build configuration list for PBXProject "Tips" */ = {
+		B5A2916F1C42DCEC006456B0 /* Build configuration list for PBXProject "Tipsy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5A2919A1C42DCED006456B0 /* Debug */,
@@ -481,29 +481,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5A2919C1C42DCED006456B0 /* Build configuration list for PBXNativeTarget "Tips" */ = {
+		B5A2919C1C42DCED006456B0 /* Build configuration list for PBXNativeTarget "Tipsy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5A2919D1C42DCED006456B0 /* Debug */,
 				B5A2919E1C42DCED006456B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B5A2919F1C42DCED006456B0 /* Build configuration list for PBXNativeTarget "TipsTests" */ = {
+		B5A2919F1C42DCED006456B0 /* Build configuration list for PBXNativeTarget "TipsyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5A291A01C42DCED006456B0 /* Debug */,
 				B5A291A11C42DCED006456B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B5A291A21C42DCED006456B0 /* Build configuration list for PBXNativeTarget "TipsUITests" */ = {
+		B5A291A21C42DCED006456B0 /* Build configuration list for PBXNativeTarget "TipsyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5A291A31C42DCED006456B0 /* Debug */,
 				B5A291A41C42DCED006456B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
